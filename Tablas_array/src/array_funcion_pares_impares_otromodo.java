@@ -11,8 +11,15 @@ public class array_funcion_pares_impares_otromodo {
                 impares++;
             }
         }
-
+// if (t[i] % 2 == 0)
+//Esta línea verifica si el número en la posición i del array t es par.
+//
+//t[i] % 2 calcula el resto de dividir ese número entre 2.
+//
+//Si el resto es 0, significa que es un número par.
         // Devolvemos un array con los dos contadores
+
+
         return new int[] {pares, impares};
     }
 
